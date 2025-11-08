@@ -72,12 +72,10 @@ button:focus-visible {
   width: 300px;                 /* adjust as needed */
 }
 
-
 .counter-image {
   display: block;
   width: 100%;
   height: auto;
-  
 }
 
 /* Middle circular button centered horizontally at 75% of container */
