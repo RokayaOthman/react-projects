@@ -66,3 +66,52 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.counter-container {
+  position: relative;           /* for absolute positioning of buttons */
+  display: inline-block;        /* container size wraps the image */
+  width: 300px;                 /* adjust as needed */
+}
+
+
+.counter-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Middle circular button centered horizontally at 75% of container */
+.middle-button {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translateX(-50%);  /* horizontal centering only */
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;           /* circular */
+  border: 2px solid #000;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 2;                   /* ensures it’s on top of the image */
+}
+
+/* Top button, larger and visible */
+.top-button {
+  position: absolute;
+  top: 52%;                     /* distance from top of container */
+  right: 18%;                   /* distance from right of container */
+  width: 35px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;         /* temporary color to see it */
+  border: 2px solid #000;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Optional: hover effect for buttons */
+.middle-button:hover,
+.top-button:hover {
+  opacity: 0.8;
+}
