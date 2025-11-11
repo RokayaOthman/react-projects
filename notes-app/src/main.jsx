@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom/client'
 import Note from './components/Note'
-
 import App from './App'
 
 const notes = [
@@ -16,7 +15,7 @@ const notes = [
   },
   {
     id: 3,
-    content: 'GET and POST are the most important methods of HTTP protocol',
+    content: 'GETTTT and POST are the most important methods of HTTP protocol',
     important: true
   }
 ]
