@@ -10,7 +10,7 @@ const notes = [
   },
   {
     id: 2,
-    content: 'Browsers can execute only JavaScript',
+    content: 'Browsers can execute only JS',
     important: false
   },
   {
