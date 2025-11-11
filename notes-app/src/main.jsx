@@ -15,7 +15,7 @@ const notes = [
   },
   {
     id: 3,
-    content: 'GETTT and POssT are the most important methods of HTTP protocol',
+    content: 'GETTT and POST are the most important methods of HTTP protocol',
     important: true
   }
 ]
