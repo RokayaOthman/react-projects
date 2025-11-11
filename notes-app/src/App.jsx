@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-const App = ({ notes }) => {
+const App = ({notes}) => {
   return (
     <div>
       <h1>Notes</h1>
