@@ -1,4 +1,6 @@
 import ReactDOM from 'react-dom/client'
+import Note from './components/Note'
+
 import App from './App'
 
 const notes = [
