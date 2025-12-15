@@ -8,7 +8,7 @@ function App() {
   const increment = () => {
     setCount((count) => count+ 1)
   }
-
+// // 
   const reset = () => {
    setCount(0) 
   }
